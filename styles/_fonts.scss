@@ -1,0 +1,37 @@
+$extrabold: 800;
+$bold: 700;
+$medium-plus: 600;
+$medium: 500;
+$regular: 400;
+$light: 300;
+
+@font-face {
+  font-family: 'FjallaOneRegular';
+  src: url("../fonts/FjallaOne-Regular.ttf");
+  font-style: normal;
+  font-weight: $regular;
+}
+@font-face {
+  font-family: 'GothamProRegular';
+  src: url("../fonts/GothamProRegular.ttf");
+  font-style: normal;
+  font-weight: $regular;
+}
+@font-face {
+  font-family: 'GothamProMedium';
+  src: url("../fonts/GothamProMedium.ttf");
+  font-style: normal;
+  font-weight: $medium;
+}
+@font-face {
+  font-family: 'PlayfairDisplay-Regular';
+  src: url("../fonts/PlayfairDisplay-Regular.ttf");
+  font-style: normal;
+  font-weight: $regular;
+}
+@font-face {
+  font-family: 'PlayfairDisplay-Italic';
+  src: url("../fonts/PlayfairDisplay-Italic.ttf");
+  font-style: italic;
+  font-weight: $regular;
+}

@@ -1,0 +1,38 @@
+@font-face {
+  font-family: 'FjallaOneRegular';
+  src: url("../fonts/FjallaOne-Regular.ttf");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'GothamProRegular';
+  src: url("../fonts/GothamProRegular.ttf");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'GothamProMedium';
+  src: url("../fonts/GothamProMedium.ttf");
+  font-style: normal;
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'PlayfairDisplay-Regular';
+  src: url("../fonts/PlayfairDisplay-Regular.ttf");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'PlayfairDisplay-Italic';
+  src: url("../fonts/PlayfairDisplay-Italic.ttf");
+  font-style: italic;
+  font-weight: 400;
+}
+/* -------- fonts -------- */
+/* -------- colors -------- */
+/* -------- variables -------- */
+/* -------- header -------- */
+/* -------- section-1 -------- */
+/* -------- footer -------- */
+
+/*# sourceMappingURL=style.css.map */
