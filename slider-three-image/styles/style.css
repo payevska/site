@@ -1,0 +1,53 @@
+body {
+	margin: 0;
+	padding: 0;		 
+}
+
+.wrap {	
+	width: 70%;	
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+#slider::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+#slider {
+	width: 100%;
+	display: flex;
+	position: relative;
+	left: 0;
+	transition: all ease 1s;
+}
+
+#slider img {	
+	float: left;	
+}
+
+.arrow {
+	cursor: pointer;	
+	width: 0;
+	height: 0;
+	border-style: solid;
+}
+
+#arrow-left {
+	margin-right: 0;
+    position: absolute;
+    top: 100px;
+    margin-left: -50px;
+	border-width: 30px 40px 30px  0;
+	border-color: transparent #3c763d transparent transparent;	
+}
+
+#arrow-right {
+	position: absolute;
+    margin-right: 205px;
+    right: 0;
+    top: 105px;
+	border-width: 30px 0 30px 40px;
+	border-color: transparent transparent transparent  #3c763d;	
+}
